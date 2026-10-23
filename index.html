@@ -3,80 +3,157 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CBK Pension Towers | Independent information</title>
-  <style>
-    :root { color-scheme: light; font-family: Arial, sans-serif; }
-    body { margin: 0; color: #1f2937; background: #f3f6f8; line-height: 1.6; }
-    header { padding: 1rem max(1rem, calc((100% - 960px) / 2)); background: #123b5d; color: white; }
-    nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .5rem; }
-    nav a { color: white; }
-    main { box-sizing: border-box; max-width: 960px; margin: 2rem auto; padding: 2rem; background: white; border-radius: 10px; }
-    footer { max-width: 960px; margin: 1rem auto; padding: 1rem; color: #4b5563; font-size: .9rem; }
-    @media (max-width: 600px) { main { margin: 1rem; padding: 1.25rem; } }
-  </style>
+  <meta name="theme-color" content="#102c45">
+  <meta name="description" content="An independent information guide for CBK Pension Towers in Nairobi, with links to official Central Bank of Kenya resources.">
+  <title>CBK Pension Towers | Nairobi</title>
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
-  <header>
-    <strong>CBK Pension Towers</strong>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About CBK</a>
-      <a href="#facilities">Facilities</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <div class="disclaimer">
+    <div class="wrap disclaimer-inner">
+      <span class="status-dot"></span>
+      <span>Independent information concept — not an official CBK website.</span>
+      <a href="https://www.centralbank.go.ke/" target="_blank" rel="noreferrer">Official CBK website ↗</a>
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home">
+        <img class="cbk-logo" src="https://www.centralbank.go.ke/wp-content/uploads/2016/09/NewLogoCBK.png" alt="Central Bank of Kenya official crest">
+          <span class="brand-copy"><strong>CBK Pension Towers</strong><small>Independent visitor information · Nairobi</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#overview">Overview</a>
+        <a href="#visit">Visitor guide</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-button" href="https://www.centralbank.go.ke/" target="_blank" rel="noreferrer">Official CBK <span>↗</span></a>
+      </nav>
+    </div>
   </header>
+
   <main id="home">
-    <h1>CBK Pension Towers</h1>
-    <p>An independent information page about CBK and Pension Towers.
-    This site is not operated by or affiliated with the Central Bank of Kenya.</p>
-    <p>For verified CBK information, visit the
-    <a href="https://www.centralbank.go.ke/">official CBK website</a>.</p>
-
-    <section id="about">
-      <h2>About the Central Bank of Kenya</h2>
-      <p>The Central Bank of Kenya (CBK) is Kenya's central bank. Its principal
-      objective is to formulate and implement monetary policy directed at
-      achieving and maintaining price stability, supporting the stability of
-      the Kenya shilling.</p>
-      <p>Read CBK's <a href="https://www.centralbank.go.ke/monetary-policy/">
-      official Monetary Policy overview</a>.</p>
-      <h2>About Pension Towers</h2>
-      <p>Building-specific details, services, and visitor arrangements have not
-      been verified for this sample. Confirm these with CBK before relying on
-      or publishing them.</p>
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><i></i> NAIROBI &nbsp;·&nbsp; KENYA</p>
+          <h1>A city landmark.<br><em>A guide with clarity.</em></h1>
+          <p class="hero-text">An independent guide to CBK Pension Towers, bringing together helpful visitor guidance and trusted links to the Central Bank of Kenya.</p>
+          <div class="hero-links">
+            <a class="gold-button" href="#overview">Explore this guide <span>↓</span></a>
+            <a class="plain-link" href="https://www.centralbank.go.ke/" target="_blank" rel="noreferrer">Visit CBK online ↗</a>
+          </div>
+          <div class="hero-foot"><span></span> INDEPENDENT INFORMATION CONCEPT</div>
+        </div>
+        <div class="hero-visual">
+          <div class="sun"></div>
+          <svg class="building" viewBox="0 0 500 530" role="img" aria-label="Decorative illustration of a modern city tower">
+            <defs><linearGradient id="tower" x1="170" y1="80" x2="380" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#315976"/><stop offset="1" stop-color="#173750"/></linearGradient></defs>
+            <path d="M25 493h450" stroke="#D8B873" stroke-opacity=".55"/>
+            <path d="M62 493V378h40v115m292 0V348h43v145" fill="#173750" stroke="#D8B873" stroke-opacity=".48"/>
+            <path d="M124 493V285l58-34 58 34v208H124Z" fill="#193D58" stroke="#D8B873" stroke-opacity=".7"/>
+            <path d="M144 305h18v24h-18zm37 0h18v24h-18zm-37 42h18v24h-18zm37 0h18v24h-18zm-37 42h18v24h-18zm37 0h18v24h-18z" fill="#D8B873" fill-opacity=".52"/>
+            <path d="M220 493V148l88-61 88 61v345H220Z" fill="url(#tower)" stroke="#E6C987" stroke-width="1.5"/>
+            <path d="M237 176h142M237 213h142M237 250h142M237 287h142M237 324h142M237 361h142M237 398h142M237 435h142M237 472h142" stroke="#E6C987" stroke-opacity=".64"/>
+            <path d="M251 166v322m32-322v322m32-322v322m32-322v322m23-322v322" stroke="#E6C987" stroke-opacity=".42"/>
+            <path d="m220 148 88-61 88 61M251 124h114" stroke="#F0D89E" stroke-width="2"/>
+            <path d="M256 493v-47h31v47m22 0v-47h31v47" fill="#102C45" stroke="#E6C987" stroke-opacity=".7"/>
+            <circle cx="424" cy="121" r="4" fill="#D8B873"/>
+            <path d="M424 98v11m0 25v11m-22-11h11m22 0h11m-39-17 8 8m17 17 8 8m0-33-8 8m-17 17-8 8" stroke="#D8B873" stroke-opacity=".75"/>
+          </svg>
+          <div class="visual-label"><span>01</span> CITY / NAIROBI</div>
+          <div class="visual-caption"><b></b><span>Illustrative artwork<br><small>Not a photograph of the building</small></span></div>
+        </div>
+      </div>
+      <a class="scroll" href="#overview">DISCOVER MORE <span></span></a>
     </section>
 
-    <section id="facilities">
-      <h2>Facilities and services</h2>
-      <p>No Pension Towers-specific facilities or visitor services are listed
-      here because they have not been confirmed by an official source. Contact
-      CBK to verify current arrangements.</p>
+    <section class="overview section" id="overview">
+      <div class="wrap overview-grid">
+        <div class="section-label"><b>01</b><i></i> THE PLACE</div>
+        <div class="overview-copy">
+          <p class="eyebrow light">WELCOME TO NAIROBI</p>
+          <h2>A place in the city.<br><em>A guide you can trust.</em></h2>
+          <p class="intro">CBK Pension Towers is associated with the Central Bank of Kenya. This independent concept offers a clear starting point for finding official information and planning ahead.</p>
+          <p class="supporting">Building-specific facilities and visitor arrangements have not been independently confirmed. Contact CBK to verify appointments, access requirements, and current services before you visit.</p>
+          <a class="inline-link" href="#visit">Explore visitor information <span>→</span></a>
+        </div>
+        <aside class="quote">
+          <span class="quote-icon">“</span>
+          <p>For accurate, current details, check directly with CBK.</p>
+          <a href="https://www.centralbank.go.ke/" target="_blank" rel="noreferrer">centralbank.go.ke ↗</a>
+          <div class="quote-art"><i></i><i></i><i></i></div>
+        </aside>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Central Bank of Kenya — head-office contacts</h2>
-      <address>
-        Haile Selassie Avenue<br>
-        P.O. Box 60000–00200<br>
-        Nairobi, Kenya
-      </address>
-      <p>Telephone:
-      <a href="tel:+254202860000">+254 20 286 0000</a>,
-      <a href="tel:+254202861000">+254 20 286 1000</a>,
-      <a href="tel:+254202863000">+254 20 286 3000</a><br>
-      Mobile:
-      <a href="tel:+254709081000">+254 709 081 000</a>,
-      <a href="tel:+254709083000">+254 709 083 000</a></p>
-      <p>These are CBK head-office contacts, not a separately verified Pension
-      Towers reception number. See CBK's
-      <a href="https://www.centralbank.go.ke/contact-us/">official Contact Us
-      page</a> and confirm building access and visitor arrangements directly
-      with CBK.</p>
+    <section class="institution">
+      <div class="wrap institution-inner">
+        <div class="seal" aria-hidden="true">
+          <svg viewBox="0 0 52 52" fill="none"><circle cx="26" cy="26" r="23" stroke="currentColor"/><path d="M12 36h28M16 36V22l10-7 10 7v14m-16-9v3m6-3v3m6-3v3m-12 4v3m6-3v3m6-3v3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="institution-copy"><p class="eyebrow light">THE INSTITUTION</p><h2>Central Bank of Kenya</h2><p>Explore CBK’s official mandate, policies, publications, and services.</p></div>
+        <a class="outline-button" href="https://www.centralbank.go.ke/" target="_blank" rel="noreferrer">Visit official CBK <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="wrap">
+        <div class="section-label"><b>02</b><i></i> PLAN AHEAD</div>
+        <div class="visit-heading">
+          <div><p class="eyebrow light">USEFUL TO KNOW</p><h2>Visitor information</h2></div>
+          <p>Helpful starting points for a visit. Confirm current details with CBK before travelling.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="card-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M16 28s10-8 10-16a10 10 0 1 0-20 0c0 8 10 16 10 16Z" stroke="currentColor" stroke-width="1.7"/><circle cx="16" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <small>01 / LOCATION</small><h3>Confirm your destination</h3>
+            <p>CBK’s published head-office address is on Haile Selassie Avenue, Nairobi. Check that it is the correct place for your appointment.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=CBK+Pension+Towers+Nairobi" target="_blank" rel="noreferrer">Find on map ↗</a>
+          </article>
+          <article class="card">
+            <span class="card-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M7 5h18v22H7zM11 10h10m-10 5h10m-10 5h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <small>02 / BEFORE YOU GO</small><h3>Check access details</h3>
+            <p>Opening hours, appointments, security procedures, and visitor access are not confirmed on this independent sample.</p>
+            <a href="https://www.centralbank.go.ke/contact-us/" target="_blank" rel="noreferrer">Ask CBK directly ↗</a>
+          </article>
+          <article class="card">
+            <span class="card-icon"><svg viewBox="0 0 32 32" fill="none"><path d="m6 10 10-5 10 5v12l-10 5-10-5V10Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m6.5 10 9.5 5 9.5-5M16 15v12" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+            <small>03 / OFFICIAL SOURCES</small><h3>Go straight to CBK</h3>
+            <p>Find official information about the Bank’s work, monetary policy, services, and published contact channels.</p>
+            <a href="https://www.centralbank.go.ke/monetary-policy/" target="_blank" rel="noreferrer">Monetary policy ↗</a>
+          </article>
+        </div>
+        <div class="notice"><span>i</span><p><strong>About this guide.</strong> This independent concept is not operated by or endorsed by CBK. Building facilities, reception details, and visitor arrangements have not been verified here.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <div class="section-label inverse"><b>03</b><i></i> GET IN TOUCH</div>
+          <p class="eyebrow">OFFICIAL CONTACT DETAILS</p>
+          <h2>Need to check<br><em>before you visit?</em></h2>
+          <p>Use CBK’s official channels to confirm your destination, arrange an appointment, or ask about current access requirements.</p>
+          <a class="gold-button" href="https://www.centralbank.go.ke/contact-us/" target="_blank" rel="noreferrer">CBK Contact Us ↗</a>
+        </div>
+        <div class="contact-info">
+          <div class="contact-row"><small>HEAD OFFICE</small><address>Haile Selassie Avenue<br>P.O. Box 60000–00200<br>Nairobi, Kenya</address></div>
+          <div class="contact-row"><small>TELEPHONE</small><p><a href="tel:+254202860000">+254 20 286 0000</a><br><a href="tel:+254202861000">+254 20 286 1000</a><br><a href="tel:+254202863000">+254 20 286 3000</a></p></div>
+          <div class="contact-row"><small>MOBILE</small><p><a href="tel:+254709081000">+254 709 081 000</a><br><a href="tel:+254709083000">+254 709 083 000</a></p></div>
+          <p class="contact-note">These are CBK head-office contacts, not a separately verified Pension Towers reception number. Confirm current details on the official contact page.</p>
+        </div>
+      </div>
+      <div class="contact-rings"></div>
     </section>
   </main>
-  <footer>
-    Independent sample website; not operated by CBK. Verify information with
-    official sources before relying on or publishing it.
+
+  <footer class="footer">
+    <div class="wrap footer-main">
+      <a class="brand brand-footer" href="#home"><span class="brand-copy"><strong>CBK Pension Towers</strong><small>Independent information concept</small></span></a>
+      <div class="footer-links"><a href="https://www.centralbank.go.ke/" target="_blank" rel="noreferrer">Official CBK ↗</a><a href="https://www.centralbank.go.ke/contact-us/" target="_blank" rel="noreferrer">Contact CBK ↗</a><a href="#home">Back to top ↑</a></div>
+    </div>
+    <div class="wrap footer-bottom"><p>Independent sample. Not affiliated with, operated by, or endorsed by the Central Bank of Kenya.</p><p>Verify visitor details with official sources.</p></div>
   </footer>
 </body>
 </html>
