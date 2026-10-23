@@ -21,6 +21,9 @@ Open <http://127.0.0.1:8000>. Stop the server with Ctrl+C.
 
 You can also open `preview.html` directly in a browser.
 
+Once GitHub Pages deployment completes, the public site is available at:
+<https://pauldonaldke-rgb.github.io/cbk-pension-tower/>
+
 ## Sources
 
 - [CBK Contact Us](https://www.centralbank.go.ke/contact-us/)
